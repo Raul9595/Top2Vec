@@ -3,6 +3,7 @@
 [![](https://readthedocs.org/projects/top2vec/badge/?version=latest&token=0c691c6cc79b4906e35e8b7ede01e815baa05041d048945fa18e26810a3517d7)](https://top2vec.readthedocs.io/en/latest/?badge=latest)
 [![](https://img.shields.io/badge/arXiv-2008.09470-00ff00.svg)](http://arxiv.org/abs/2008.09470)
 
+**__This is a forked version with minor enhancments. Please refer to the following repo for the original code - https://github.com/ddangelov/Top2Vec__**
 
 **Update: Pre-trained Universal Sentence Encoders and BERT Sentence Transformer now available for embedding. Read [more](#pretrained).**
 
@@ -86,28 +87,11 @@ attracted the documents to the dense area are the topic words.
     <img src="https://raw.githubusercontent.com/ddangelov/Top2Vec/master/images/topic_words.svg?sanitize=true" alt="" width=600 height="whatever">
 </p>
 
-Installation
-------------
-
-The easy way to install Top2Vec is:
-
-    pip install top2vec
-    
-To install pre-trained universal sentence encoder options:
-    
-    pip install top2vec[sentence_encoders]
-    
-To install pre-trained BERT sentence transformer options:
-
-    pip install top2vec[sentence_transformers]
-    
-To install indexing options:
-
-    pip install top2vec[indexing]
-
 
 Usage
 -----
+
+Please copy the top2vec.py file into your code repository and import it as follows - 
 
 ```python
 
